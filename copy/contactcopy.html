@@ -11,6 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Signika:wght@300..700&display=swap" rel="stylesheet">
     <style>
         a {color:black;}
+        /* Style for the input fields */
+        input[type="text"],
+        input[type="tel"] {
+            width: 100%; 
+            padding: 10px; 
+            margin: 5px 0;
+            box-sizing: border-box; 
+            border: 1px solid #ccc; 
+            border-radius: 4px; 
+        }
+
+        /* Make label text bold */
+        label {
+            font-weight: bold; /* Set font weight to bold */
+        }
     </style>
 </head>
 
@@ -24,7 +39,7 @@
 
     <div id="title"><h1>Enchanted Locks Hair Salon</h1></div>
 
-    <!--This is the home, about, contact and service page buttons-->
+    <!-- This is the home, about, contact and service page buttons -->
 
     <div class="container">
         <div id="home"><h3 class="linkword"> <a href="indexcopy.html"> Home </a> </h3></div>
@@ -33,50 +48,37 @@
         <div id="contact"><h3 class="linkword"> <a href="contactcopy.html"> Contact</a> </h3></div>
     </div>
 
-        <!--This is the button linking to the contact page-->
+    <!-- Contact Box -->
+    <div id="contactBox">
+        <h3>Contact Us</h3>
+        <form>
+            <div>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+            </div>
 
-   
-    <a href="contactcopy.html">
-        <button>BOOK NOW</button>
-    </a>
-    <form>
+            <div>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+            </div>
 
-        <div>
-            <label for="fname">First name:  </label>
-            <input type="text" id="fname" name="fname">
-        </div>
-  
-        <br>
-  
-        <div>
-            <label for="lname">Last name: </label>
-            <input type="text" id="lname" name="lname">
-        </div>
-  
-        <br>
-        
-        <div>
-            <label for="phone">Phone number: </label>
-            <input type="tel" id="phone" name="phone">
-        </div>
-  
-        <br>
-  
-        <div>
-            <input type="submit">
-        </div>
-  
-  
-  
-  
-      </form>  
-    
-    <h4>Email us: <a href="mailto:enchantedlocks@gmail.com">enchantedlocks@gmail.com</a></h4>
-  
-    <h4>Phone: 012 000 0235</h4>
-  
-  
-      
-  
-  </body>
-  </html>
+            <div>
+                <label for="phone">Telephone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div>
+                <label for="email">E - Address:</label>
+                <input type="text" id="email" name="email">
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+
+        <h4>Email us: <a href="mailto:enchantedlocks@gmail.com">enchantedlocks@gmail.com</a></h4>
+        <h4>Phone: 012 000 0235</h4>
+    </div>
+
+</body>
+</html>
