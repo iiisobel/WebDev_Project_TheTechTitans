@@ -159,6 +159,68 @@ input[type="submit"]:hover {
     background-color: #FAE6BB;
 }
 
+/* General box styling for sections */
+.text-box {
+    border: 2px solid #000; /* Black border */
+    padding: 10px; /* Reduced space inside the box */
+    margin: 10px auto; /* Reduced space between boxes */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    width: 80%; /* Make boxes narrower */
+    max-width: 600px; /* Ensure boxes don't exceed a certain size */
+    text-align: center; /* Center align text within boxes */
+}
+
+/* Headings styling */
+h1, h2 {
+    font-family: 'Sansita', sans-serif;
+    margin-bottom: 10px; /* Smaller margin below headings */
+}
+
+/* Price list styling */
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 5px 0; /* Add spacing between items */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+/* Link styling */
+a {
+    color: rgb(219, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+#book-button {
+    display: block;
+    width: 120px; /* Reduced button width */
+    margin: 20px auto;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px; /* Reduced padding */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Smaller font size */
+    text-transform: uppercase;
+}
+
+#book-button:hover {
+    background-color: #45a049;
+}
+
 /* Mobile Adjustments (for small screens) */
 
 /* Box sizing and text resizing for better mobile view */
